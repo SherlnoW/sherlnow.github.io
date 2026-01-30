@@ -60,24 +60,37 @@
         
       </a>
     </div>
-    <!-- link -->
-    <div class="navbar-link">
-      <div class="navbar-btn">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul class="navbar-list">
+    
+    <!-- 导航链接 -->
+    <ul class="navbar-list">
+      
         
-          <li class="navbar-list-item"><a href="/">首页</a></li>
+        <li class="navbar-list-item">
+          <a href="/">首页</a>
+        </li>
+      
         
-          <li class="navbar-list-item"><a href="/archives">归档</a></li>
+        <li class="navbar-list-item">
+          <a href="/archives">归档</a>
+        </li>
+      
         
-          <li class="navbar-list-item"><a href="/links">友链</a></li>
+        <li class="navbar-list-item">
+          <a href="/links">友链</a>
+        </li>
+      
         
-          <li class="navbar-list-item"><a href="/about">关于</a></li>
-        
-      </ul>
+        <li class="navbar-list-item">
+          <a href="/about">关于</a>
+        </li>
+      
+    </ul>
+    
+    <!-- 移动端菜单按钮 -->
+    <div class="navbar-btn" aria-label="Toggle menu" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   </div>
 </nav>
@@ -119,24 +132,27 @@
   <article class="content-container layout-block post-container">
   <div class="article-info">
     
-        <!-- archive card -->
-<div class="markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-  <h1>2026</h1>  
-  
-      <div>
-        <span>
-          <time  class="article-date" datetime="2026-01-18T12:32:53.211Z" itemprop="datePublished">2026-01-18</time>
-        </span>
+        <!-- archive year card -->
+<div class="archive-year-card">
+  <h2 class="archive-year-title">2026</h2>
+  <div class="archive-posts-list">
+    
+      <article class="archive-post-item">
+        <time class="archive-post-date" datetime="2026-01-18T12:32:53.211Z">
+          01-18
+        </time>
+        <div class="archive-post-content">
           
-            <a href="/2026/01/18/hello-world/" itemprop="url">
-              <strong>Hello World</strong>
+            <a href="/2026/01/18/hello-world/" class="archive-post-link">
+              <h3 class="archive-post-title">Hello World</h3>
             </a>
           
-
-      </div>
-  
+          
+        </div>
+      </article>
+    
+  </div>
 </div>
-
     
   </div>
   <div class="widget-info">
@@ -274,14 +290,6 @@
     <p>&copy; 2026 <a href="/" target="_blank">sherlno</a></p>
 
     
-
-    <p>Powered by <a href="https://hexo.io" target="_blank" rel="noopener noreferrer">Hexo</a> Theme - <a href="https://github.com/miiiku/flex-block" target="_blank" rel="noopener noreferrer author">flex-block</a></p>
-
-    <p>
-      <a href="javascript:;" id="theme-light">🌞 浅色</a>
-      <a href="javascript:;" id="theme-dark">🌛 深色</a>
-      <a href="javascript:;" id="theme-auto">🤖️ 自动</a>
-    </p>
   </div>
 </footer>
   </div>
